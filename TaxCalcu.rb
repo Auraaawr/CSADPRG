@@ -16,13 +16,13 @@ if taxable_income < 20833
 elsif taxable_income >= 20833 && taxable_income <= 33332
     income_tax = (taxable_income - 20833) * 0.15
 elsif taxable_income >= 33333 && taxable_income <= 66666
-    income_tax = (taxable_income - 33333) * 0.20 + 2500
+    income_tax = (taxable_income - 33333) * 0.20 + 1875
 elsif taxable_income >= 66667 && taxable_income <= 166666
-    income_tax = (taxable_income - 66667) * 0.25 + 10833
+    income_tax = (taxable_income - 66667) * 0.25 + 8541.80
 elsif taxable_income >= 166667 && taxable_income <= 666666
-    income_tax = (taxable_income - 166667) * 0.30 + 40833
+    income_tax = (taxable_income - 166667) * 0.30 + 33541.80
 elsif taxable_income > 666666
-    income_tax = (taxable_income - 666667) * 0.35 + 200833
+    income_tax = (taxable_income - 666667) * 0.35 + 183541.80
 end
 
 afterTaxIncome = monthly_income - income_tax
