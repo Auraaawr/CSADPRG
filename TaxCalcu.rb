@@ -4,7 +4,7 @@ monthly_income = gets.to_f
 
 sss = monthly_income * 0.045
 phil_health = monthly_income * 0.025
-pagibig = monthly_income * 0.004  # not sure about computations
+pagibig = monthly_income * 0.006  # not sure about computations
 total_contributions = sss + phil_health + pagibig
 
 taxable_income = monthly_income - total_contributions
