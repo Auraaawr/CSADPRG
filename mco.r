@@ -2,7 +2,7 @@
 # Language: R
 # Paradigm: functional
 
-library(readr)
+#library(readr)
 
 monthlyIncome <- readline(prompt = "Input Monthly Income: "); 
 monthlyIncome <-as.numeric(monthlyIncome); 
