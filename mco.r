@@ -1,3 +1,7 @@
+# Last Names: Alcantara, Alcantara, Fernandez, Kho
+# Language: R
+# Paradigm: functional
+
 library(readr)
 
 monthlyIncome <- readline(prompt = "Input Monthly Income: "); 
