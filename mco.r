@@ -73,18 +73,18 @@ incomeTaxComputation <- function(value){
   return(incomeTax)
 }
 
-sssComputation (monthlyIncome)
+#sssComputation (monthlyIncome)
 sss <- sssComputation(monthlyIncome)
 
-philHealthComputation(monthlyIncome)
+#philHealthComputation(monthlyIncome)
 philHealth <- philHealthComputation(monthlyIncome)
 
-pagibigComputation(monthlyIncome)
+#pagibigComputation(monthlyIncome)
 pagibig <- pagibigComputation(monthlyIncome)
 
 totalContributions <- sum(sss,philHealth,pagibig)
 taxableIncome <- monthlyIncome - totalContributions
-incomeTaxComputation(taxableIncome)
+#incomeTaxComputation(taxableIncome)
 incomeTax <- incomeTaxComputation(taxableIncome)
 
 netAfterTax <- monthlyIncome - incomeTax
