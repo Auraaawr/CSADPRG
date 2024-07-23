@@ -66,7 +66,7 @@ incomeTaxComputation <- function(value){
   if(value >= 66667 && value <= 166666)
     incomeTax <- (value-66667)*0.25+8541.8
   if(value >= 166667 && value <= 666666)
-    incomeTax <- (value-166667)*0.30+3354.8
+    incomeTax <- (value-166667)*0.30+33541.8
   if(value >= 666667)
     incomeTax <- (value-666667)*0.35+183541.8
   
